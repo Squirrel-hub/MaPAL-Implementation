@@ -1,5 +1,20 @@
 # Multi-annotator Probabilistic Active Learning
 
+## Our Anaconda Implementation
+
+Datasets : 
+1. Medical
+2. Reports-Mozilla
+3. Reports-Compendium
+
+The Run.ipynb file contains the python commands to run the above three datasets with required hyperparameters.
+
+Separately installed packages on Anaconda:
+1. annotlib
+
+
+## Author Implementation
+
 Authors: Marek Herde, Daniel Kottke, Denis Huseljic, and Bernhard Sick
 
 [Supplementary Material](mapal-supplementary.pdf) (supplementary-material.pdf) contains further details on the experimental setup (i.e., information about data sets and annotator simulation techniques) and additional results (i.e.,  learning curves, a table of area under learning curve values, and a table of run times).
