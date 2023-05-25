@@ -33,7 +33,7 @@ np.random.seed(42)
 random_state = np.random.RandomState(40)
 
 # obtain available data sets
-data_set_names = pd.read_csv('/content/mapal/data/data_set_ids.csv').name.values
+data_set_names = pd.read_csv('/content/MaPAL-Implementation/data/data_set_ids.csv').name.values
 
 # simulation for each data set
 for d in data_set_names:
