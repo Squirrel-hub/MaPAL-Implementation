@@ -19,7 +19,7 @@ from annotlib.cluster_based import ClusterBasedAnnot
 from scipy.spatial import ConvexHull
 
 import sys
-sys.path.insert(0,'/content/mapal')
+sys.path.insert(0,'/content/MaPAL-Implementation')
 
 from src.utils.data_functions import investigate_data_set, load_data, preprocess_2d_data_set
 from src.utils.plot_functions import plot_simulation
